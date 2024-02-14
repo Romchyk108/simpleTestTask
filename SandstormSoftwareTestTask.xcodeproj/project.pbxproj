@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2C482F392B7A5D880003F136 /* SandstormSoftwareTestTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C482F382B7A5D880003F136 /* SandstormSoftwareTestTaskApp.swift */; };
-		2C482F3B2B7A5D880003F136 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C482F3A2B7A5D880003F136 /* ContentView.swift */; };
-		2C482F3D2B7A5D880003F136 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C482F3C2B7A5D880003F136 /* Item.swift */; };
+		2C482F3B2B7A5D880003F136 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C482F3A2B7A5D880003F136 /* MainScreen.swift */; };
 		2C482F3F2B7A5D8A0003F136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C482F3E2B7A5D8A0003F136 /* Assets.xcassets */; };
 		2C482F432B7A5D8A0003F136 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C482F422B7A5D8A0003F136 /* Preview Assets.xcassets */; };
+		2C482F4A2B7D53370003F136 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C482F492B7D53370003F136 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C482F352B7A5D880003F136 /* SandstormSoftwareTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandstormSoftwareTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C482F382B7A5D880003F136 /* SandstormSoftwareTestTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandstormSoftwareTestTaskApp.swift; sourceTree = "<group>"; };
-		2C482F3A2B7A5D880003F136 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2C482F3C2B7A5D880003F136 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2C482F3A2B7A5D880003F136 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		2C482F3E2B7A5D8A0003F136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C482F402B7A5D8A0003F136 /* SandstormSoftwareTestTask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SandstormSoftwareTestTask.entitlements; sourceTree = "<group>"; };
 		2C482F422B7A5D8A0003F136 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C482F492B7D53370003F136 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				2C482F382B7A5D880003F136 /* SandstormSoftwareTestTaskApp.swift */,
-				2C482F3A2B7A5D880003F136 /* ContentView.swift */,
-				2C482F3C2B7A5D880003F136 /* Item.swift */,
+				2C482F3A2B7A5D880003F136 /* MainScreen.swift */,
+				2C482F492B7D53370003F136 /* ViewModel.swift */,
 				2C482F3E2B7A5D8A0003F136 /* Assets.xcassets */,
 				2C482F402B7A5D8A0003F136 /* SandstormSoftwareTestTask.entitlements */,
 				2C482F412B7A5D8A0003F136 /* Preview Content */,
@@ -142,8 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C482F3B2B7A5D880003F136 /* ContentView.swift in Sources */,
-				2C482F3D2B7A5D880003F136 /* Item.swift in Sources */,
+				2C482F3B2B7A5D880003F136 /* MainScreen.swift in Sources */,
+				2C482F4A2B7D53370003F136 /* ViewModel.swift in Sources */,
 				2C482F392B7A5D880003F136 /* SandstormSoftwareTestTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
